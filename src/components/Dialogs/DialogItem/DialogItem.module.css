@@ -1,0 +1,33 @@
+.dialog {
+    padding-bottom: 10px;
+}
+img {
+    margin-right: 10px;
+}
+.dialog a {
+    color: #3B444B	;
+    text-decoration: none;
+}
+.dialog .active {
+    color: #26a69a;
+    font-weight: bold;
+}
+.dialog img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.active img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;}
+
+.name:hover {
+    font-weight: bold;
+}
+.status {
+    position: absolute;
+    right: 68.5%;
+    color: green;
+    font-size: 0.5em;
+}

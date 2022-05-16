@@ -1,0 +1,25 @@
+.paginartor {
+    overflow:hidden;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: inline-block;
+    background-color: #26a69a;
+    border-radius: 10px 0px 10px 0px;
+    margin: 2px;
+    width:25px;
+	height:25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 0.6em;
+    color: white;
+}
+.item:hover {
+    background-color: #1c786f;
+}
+.selectedPage {
+    font-weight: bold;
+    background-color: #41fae8;
+}
+

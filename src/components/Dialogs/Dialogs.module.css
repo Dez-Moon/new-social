@@ -1,0 +1,29 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+    padding-top: 20px;
+    padding-left: 20px;
+    border-right: 2px dashed #26a69a;
+}
+.messages {
+    padding: 10px;
+}
+.writeMessages input {
+    width: 85%;
+    height: 30px;
+    margin-left: 10px;
+}
+.writeMessages button {
+    background-color: #26a69a;
+    border: none;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.message {
+    margin-top: 10px;
+}

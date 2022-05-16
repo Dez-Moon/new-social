@@ -1,0 +1,49 @@
+.header {
+    grid-area: h;
+    background-color: white;
+  }
+.header img {
+    width: 40px;
+    margin: 10px 10px 10px 30px;
+    border-radius: 100%;
+  }
+.loginBlock {
+  float: right;
+  width: 100px;
+  margin-right: 50px;
+  height: 100%;
+  border-radius: 5px;
+}
+.websiteName {
+  font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+  margin-left: 20px;
+  color: #26a69a;
+  font-size: 3.5em;
+}
+.loginBlock:hover {
+  background-color: #F0F1F3;
+}
+.divClickPhoto {
+  position: relative;
+  right: 100px;
+  border: 1px #F0F1F3 solid;
+  width: 200px;
+  background-color: #f5f5f5;
+}
+.item {
+  padding: 5px;
+  /* margin-left: 10px; */
+  text-align: left;;
+}
+.item:hover {
+  background-color: #bdc2c7;
+}
+.itemName {
+  position: absolute;
+  top: 15%
+}
+.item span {
+  margin-left: 10px;
+}
+
+    
